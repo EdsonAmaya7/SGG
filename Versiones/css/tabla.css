@@ -1,0 +1,35 @@
+.my-custom-scrollbar {
+position: relative;
+height: 300px;
+overflow: auto;
+}
+.table-wrapper-scroll-y {
+display: block;
+}
+.table-striped > tbody > tr:nth-child(2n+1) > td, .table-striped > tbody > tr:nth-child(2n+1) > th {
+   background-color: rgba(240,21,41,1);
+}
+.formulario__label{
+    padding-left: 15px;
+    position: absolute;
+    margin-top: -85px;
+    z-index: -20;
+    transition: all 0.2s;
+}
+.formulario__label{
+    display: block;
+    width: 100%;
+    font-size: 1.3em;
+    
+}
+.formulario{
+    width: 500px;
+    max-width: 100%;
+    margin: auto;
+    margin-top: 30px;
+    padding: 20px;
+    box-shadow:0 0 20px 1px rgba(0,0,0,0.3) ;
+    position: relative;
+    
+    
+}
