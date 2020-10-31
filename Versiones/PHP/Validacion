@@ -1,0 +1,5 @@
+<?php
+    if (isset($_POST['submit'])){
+        $correo = $_POST['correo'];
+        $contraseña = $_POST['contraseña'];
+    }
